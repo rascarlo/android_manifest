@@ -331,4 +331,7 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="jb-ras-mr1" />
+
+
 </manifest>
