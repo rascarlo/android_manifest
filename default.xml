@@ -2,8 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android-review.googlesource.com/" />
   <remote name="rascarlo"
            fetch="git://github.com/rascarlo/" /> 
   <default revision="refs/tags/android-4.2_r1"
