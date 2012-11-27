@@ -1,3 +1,3 @@
 repo init -u git://github.com/rascarlo/platform_manifest.git -b jb-ras-mr1
 
-[@rascarlo](https://twitter.com/#!/rascarlo)
+i am [@rascarlo](https://twitter.com/rascarlo) on Twitter
