@@ -11,6 +11,8 @@
 
   <project path="build" name="android_build" remote="rascarlo" revision="jb-ras-mr1">
     <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="build_dem_all.sh" dest="build_dem_all.sh" />
+    <copyfile src="hell_build_dem_all.sh" dest="hell_build_dem_all.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" />
