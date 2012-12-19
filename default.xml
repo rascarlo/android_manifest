@@ -5,6 +5,8 @@
            fetch="https://android-review.googlesource.com/" />
   <remote name="rascarlo"
            fetch="git://github.com/rascarlo/" /> 
+  <remote name="CyanogenMod"
+           fetch="git://github.com/CyanogenMod/" />  
   <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-j="4" />
@@ -283,6 +285,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="CyanogenMod" revision="cm-10.1" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
