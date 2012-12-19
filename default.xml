@@ -35,7 +35,7 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device" />
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="rascarlo" revision="jb-ras-mr1" groups="device" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" />
