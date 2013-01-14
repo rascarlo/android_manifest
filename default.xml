@@ -39,7 +39,7 @@
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />
+  <project path="device/samsung/manta" name="device_samsung_manta" remote="rascarlo" revision="jb-ras-mr1" groups="device" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="rascarlo" revision="jb-ras-mr1" groups="device" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="rascarlo" revision="jb-ras-mr1" groups="device" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
