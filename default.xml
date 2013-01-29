@@ -17,7 +17,7 @@
     <copyfile src="sh_hell_build_dem_all.sh" dest="sh_hell_build_dem_all.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
+  <project path="bionic" name="platform_bionic" remote="rascarlo" revision="jb-ras-mr1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
