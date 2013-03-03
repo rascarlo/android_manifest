@@ -11,13 +11,13 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" groups="pdk" remote="rascarlo" revision="mr1" >
+  <project path="build" name="android_build" groups="pdk" remote="rascarlo" revision="jb-ras-mr1.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="sh_build_dem_all.sh" dest="sh_build_dem_all.sh" />
     <copyfile src="sh_hell_build_dem_all.sh" dest="sh_hell_build_dem_all.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="platform_bionic" groups="pdk" remote="rascarlo" revision="mr1" />
+  <project path="bionic" name="platform_bionic" groups="pdk" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -35,13 +35,13 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="android_device_lge_mako" groups="device,mako" remote="rascarlo" revision="mr1" />
+  <project path="device/lge/mako" name="android_device_lge_mako" groups="device,mako" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device,tuna" />
-  <project path="device/samsung/manta" name="device_samsung_manta" groups="device,manta" remote="rascarlo" revision="mr1" />
-  <project path="device/samsung/toro" name="android_device_samsung_toro" groups="device,tuna" remote="rascarlo" revision="mr1" />
-  <project path="device/samsung/tuna" name="android_device_samsung_tuna" groups="device,tuna" remote="rascarlo" revision="mr1" />
+  <project path="device/samsung/manta" name="device_samsung_manta" groups="device,manta" remote="rascarlo" revision="jb-ras-mr1.1" />
+  <project path="device/samsung/toro" name="android_device_samsung_toro" groups="device,tuna" remote="rascarlo" revision="jb-ras-mr1.1" />
+  <project path="device/samsung/tuna" name="android_device_samsung_tuna" groups="device,tuna" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -204,13 +204,13 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="rascarlo" revision="mr1" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" groups="pdk" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
-  <project path="frameworks/ex" name="platform_frameworks_ex" remote="rascarlo" revision="mr1" />
+  <project path="frameworks/ex" name="platform_frameworks_ex" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
@@ -230,7 +230,7 @@
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="rascarlo" revision="mr1" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
@@ -261,8 +261,8 @@
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="platform_packages_apps_contacts" remote="rascarlo" revision="mr1"/>
-  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock"  remote="rascarlo" revision="mr1" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_contacts" remote="rascarlo" revision="jb-ras-mr1.1"/>
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock"  remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
@@ -271,16 +271,16 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="platform_packages_apps_mms" remote="rascarlo" revision="mr1" />
+  <project path="packages/apps/Mms" name="platform_packages_apps_mms" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform_packages_apps_phone" remote="rascarlo" revision="mr1"/>
+  <project path="packages/apps/Phone" name="platform_packages_apps_phone" remote="rascarlo" revision="jb-ras-mr1.1"/>
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="rascarlo" revision="mr1"/>
+  <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="rascarlo" revision="jb-ras-mr1.1"/>
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -291,7 +291,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="rascarlo" revision="mr1" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -341,15 +341,15 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
   <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/extras" name="android_system_extras" remote="rascarlo" revision="mr1" />
+  <project path="system/extras" name="android_system_extras" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
-  <project path="vendor/asus" name="android_vendor_asus" remote="rascarlo" revision="mr1" />
-  <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="mr1" />
-  <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="mr1" />
-  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="rascarlo" revision="mr1" />
+  <project path="vendor/asus" name="android_vendor_asus" remote="rascarlo" revision="jb-ras-mr1.1" />
+  <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="jb-ras-mr1.1" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="jb-ras-mr1.1" />
+  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="rascarlo" revision="jb-ras-mr1.1" />
 </manifest>
