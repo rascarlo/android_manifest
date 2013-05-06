@@ -206,13 +206,13 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="rascarlo" revision="jb-ras-mr1.1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" groups="pdk" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
-  <project path="frameworks/ex" name="platform_frameworks_ex" remote="rascarlo" revision="jb-ras-mr1.1" />
+  <project path="frameworks/ex" name="android_frameworks_ex" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="rascarlo" revision="jb-ras-mr1.1" />
@@ -232,7 +232,7 @@
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="rascarlo" revision="jb-ras-mr1.1" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
@@ -263,8 +263,8 @@
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="platform_packages_apps_contacts" remote="rascarlo" revision="jb-ras-mr1.1"/>
-  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock"  remote="rascarlo" revision="jb-ras-mr1.1" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_contacts" remote="rascarlo" revision="jb-ras-mr1.1"/>
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock"  remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
@@ -273,16 +273,16 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="platform_packages_apps_mms" remote="rascarlo" revision="jb-ras-mr1.1" />
+  <project path="packages/apps/Mms" name="android_packages_apps_mms" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="refs/tags/android-4.2.2_r1.1" />
-  <project path="packages/apps/Phone" name="platform_packages_apps_phone" remote="rascarlo" revision="jb-ras-mr1.1"/>
+  <project path="packages/apps/Phone" name="android_packages_apps_phone" remote="rascarlo" revision="jb-ras-mr1.1"/>
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="refs/tags/android-4.2.2_r1.1" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="rascarlo" revision="jb-ras-mr1.1"/>
+  <project path="packages/apps/Settings" name="android_packages_apps_settings" remote="rascarlo" revision="jb-ras-mr1.1"/>
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" revision="refs/tags/android-4.2.2_r1.1" />
@@ -293,7 +293,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="refs/tags/android-4.2.2_r1.1" />
-  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="rascarlo" revision="jb-ras-mr1.1" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="refs/tags/android-4.2.2_r1.1" />
