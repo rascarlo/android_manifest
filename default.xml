@@ -3,11 +3,13 @@
 
   <remote  name="aosp"
            fetch="https://android-review.googlesource.com/" />
+  <remote name="rascarlo"
+           fetch="git://github.com/rascarlo/" />
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="android_build" groups="pdk" remote="rascarlo" revision="jb-ras-mr2.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
