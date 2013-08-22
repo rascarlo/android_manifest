@@ -7,7 +7,7 @@
            fetch="git://github.com/rascarlo/" /> 
   <remote name="CyanogenMod"
            fetch="git://github.com/CyanogenMod/" />
-  <default revision="refs/tags/android-4.3_r2.1"
+  <default revision="refs/tags/android-4.3_r2.2"
            remote="aosp"
            sync-j="4" />
 
@@ -26,7 +26,7 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" revision="refs/tags/android-4.3_r2.1_" />
+  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -40,7 +40,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="android_device_lge_mako" groups="device,mako" remote="rascarlo" revision="jb-ras-mr2.0" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" revision="refs/tags/android-4.3_r2.1_" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device,tuna" />
   <project path="device/samsung/manta" name="android_device_samsung_manta" groups="device,manta" remote="rascarlo" revision="jb-ras-mr2.0" />
