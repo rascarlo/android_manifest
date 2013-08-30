@@ -13,6 +13,8 @@
 
   <project path="build" name="android_build" groups="pdk" remote="rascarlo" revision="jb-ras-mr2.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="sh_build_dem_all.sh" dest="sh_build_dem_all.sh" />
+    <copyfile src="sh_hell_build_dem_all.sh" dest="sh_hell_build_dem_all.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
