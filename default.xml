@@ -7,7 +7,7 @@
            fetch="git://github.com/rascarlo/" /> 
   <remote name="CyanogenMod"
            fetch="git://github.com/CyanogenMod/" />
-  <default revision="refs/tags/android-4.3_r3"
+  <default revision="refs/tags/android-4.3_r3.1"
            remote="aosp"
            sync-j="4" />
 
