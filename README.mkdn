@@ -1,3 +1,5 @@
 repo init -u https://github.com/rascarlo/android_manifest.git -b jb-ras-mr2.0
 
 i am [@rascarlo](https://twitter.com/rascarlo) on Twitter
+
+<img src="https://raw.github.com/rascarlo/android_manifest/jb-ras-mr2.0/LionOfJudah.png">
