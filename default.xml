@@ -433,6 +433,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="vendor/asus" name="android_vendor_asus" remote="rascarlo" revision="kk-ras-mr1" />
   <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="kk-ras-mr1" />
   <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="rascarlo" revision="kk-ras-mr1" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="kk-ras-mr1" />
