@@ -2,6 +2,6 @@ repo init -u https://github.com/rascarlo/android_manifest.git -b kk-ras-mr1
 
 i am [@rascarlo](https://twitter.com/rascarlo) on Twitter
 
-flashable builds for grouper, hammerhead, mako and manta can be found on http://fitsnugly.euroskank.com/?rom=rasbeanjelly
+flashable builds for grouper, mako and manta can be found on http://fitsnugly.euroskank.com/?rom=rastakat
 
 <img src="https://raw.github.com/rascarlo/android_manifest/jb-ras-mr2.0/LionOfJudah.png">
