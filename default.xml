@@ -13,6 +13,10 @@
 
 <project path="build" name="android_build" groups="pdk" remote="rascarlo" revision="kk-ras-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="lazyAll.sh" dest="lazyAll.sh" />
+    <copyfile src="lazyClobber.sh" dest="lazyClobber.sh" />
+    <copyfile src="lazyMine.sh" dest="lazyMine.sh" />
+    <copyfile src="lazyOthers.sh" dest="lazyOthers.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
