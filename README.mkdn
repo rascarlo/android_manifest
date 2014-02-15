@@ -1,6 +1,6 @@
-Manifest for android-4.4.2_r1
+Manifest for android-4.4.2_r2
 
-repo init -u https://github.com/rascarlo/android_manifest.git -b kk-ras-mr1.2
+repo init -u https://github.com/rascarlo/android_manifest.git -b kk-ras-mr1.2_r2
 
 [@rascarlo](https://twitter.com/rascarlo) on Twitter
 
