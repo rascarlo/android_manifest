@@ -7,11 +7,11 @@
            fetch="git://github.com/rascarlo/" /> 
   <remote name="CyanogenMod"
            fetch="git://github.com/CyanogenMod/" />
-  <default revision="refs/tags/android-4.4.2_r1"
+  <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
 
-<project path="build" name="android_build" groups="pdk" remote="rascarlo" revision="kk-ras-mr1.2" >
+<project path="build" name="android_build" groups="pdk" remote="rascarlo" revision="kk-ras-mr1.2_r2" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="lazyAll.sh" dest="lazyAll.sh" />
     <copyfile src="lazyClobber.sh" dest="lazyClobber.sh" />
@@ -436,9 +436,9 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/asus" name="android_vendor_asus" remote="rascarlo" revision="kk-ras-mr1.2" />
-  <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="kk-ras-mr1.2" />
+  <project path="vendor/asus" name="android_vendor_asus" remote="rascarlo" revision="kk-ras-mr1.2_r2" />
+  <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="kk-ras-mr1.2_r2" />
   <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="rascarlo" revision="kk-vanilla" />
-  <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="kk-ras-mr1.2" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="kk-ras-mr1.2_r2" />
 
 </manifest>
