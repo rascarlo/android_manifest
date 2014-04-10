@@ -3,6 +3,8 @@
 
   <remote  name="aosp"
            fetch="https://android-review.googlesource.com/" />
+  <remote  name="gh"
+           fetch="https://github.com/" />           
   <remote name="rascarlo"
            fetch="git://github.com/rascarlo/" /> 
   <remote name="CyanogenMod"
