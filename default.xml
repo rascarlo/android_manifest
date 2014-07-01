@@ -5,11 +5,11 @@
            fetch="https://android-review.googlesource.com/" />
   <remote name="rascarlo"
            fetch="git://github.com/rascarlo/" /> 
-  <default revision="refs/tags/android-4.4.3_r1.1"
+  <default revision="refs/tags/android-4.4.4_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" groups="pdk" remote="rascarlo" revision="kk-ras-mr3_r1.1" >
+  <project path="build" name="android_build" groups="pdk" remote="rascarlo" revision="kk-ras-mr4_r1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="lazyAll.sh" dest="lazyAll.sh" />
   </project>
@@ -65,7 +65,7 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
-  <project path="external/busybox" name="android_external_busybox" remote="rascarlo" revision="kk-ras-mr3_r1.1" />
+  <project path="external/busybox" name="android_external_busybox" remote="rascarlo" revision="kk-ras-mr4_r1" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium" name="platform/external/chromium" />
@@ -246,7 +246,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="rascarlo" revision="kk-ras-mr3_r1.1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="rascarlo" revision="kk-ras-mr4_r1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -334,7 +334,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="android_packages_apps_settings" remote="rascarlo" revision="kk-ras-mr3_r1.1"/>
+  <project path="packages/apps/Settings" name="android_packages_apps_settings" remote="rascarlo" revision="kk-ras-mr4_r1"/>
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -420,7 +420,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/extras" name="android_system_extras" groups="pdk" remote="rascarlo" revision="kk-ras-mr3_r1.1"/>
+  <project path="system/extras" name="android_system_extras" groups="pdk" remote="rascarlo" revision="kk-ras-mr4_r1"/>
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
@@ -436,9 +436,9 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/asus" name="android_vendor_asus" remote="rascarlo" revision="kk-ras-mr3_r1.1" />
-  <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="kk-ras-mr3_r1.1" />
-  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="rascarlo" revision="kk-ras-mr3_r1.1" />
-  <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="kk-ras-mr3_r1.1" />
+  <project path="vendor/asus" name="android_vendor_asus" remote="rascarlo" revision="kk-ras-mr4_r1" />
+  <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="kk-ras-mr4_r1" />
+  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="rascarlo" revision="kk-ras-mr4_r1" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="kk-ras-mr4_r1" />
 
 </manifest>
