@@ -1,4 +1,4 @@
-Manifest for android-4.4.4_r1
+Manifest for android-4.4.4_r2.0.1
 
 repo init -u https://github.com/rascarlo/android_manifest.git -b kk-ras-mr4_r1
 
