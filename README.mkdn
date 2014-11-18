@@ -1,0 +1,11 @@
+Manifest for android-5.0.0_r6
+
+repo init -u https://github.com/rascarlo/android_manifest.git -b lollipop-ras-mr1
+
+[@rascarlo](https://twitter.com/rascarlo) on Twitter
+
+[@rascarlo](https://plus.google.com/+CarloDiNuccio/) on G+
+
+flashable builds can be found on http://fitsnugly.euroskank.com/?rom=rastapop
+
+<img src="https://raw.github.com/rascarlo/android_manifest/lollipop-ras-mr1/LionOfJudah.png">
