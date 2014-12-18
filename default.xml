@@ -502,7 +502,7 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/asus/flo" name="vendor_flo" remote="matt4321" revision="lollipop-ras-mr1" />
+  <project path="vendor/asus/flo" name="vendor_flo" remote="matt4321" revision="master" />
   <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="lollipop-ras-mr1" />
   <project path="vendor/moto" name="android_vendor_moto" remote="rascarlo" revision="lollipop-ras-mr1" />
   <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="matt4321" revision="lollipop-ras-mr1" />
