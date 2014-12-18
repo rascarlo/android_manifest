@@ -4,12 +4,14 @@
   <remote  name="aosp"
            fetch="https://android-review.googlesource.com/" />
   <remote name="rascarlo"
-           fetch="git://github.com/rascarlo/" /> 
+           fetch="git://github.com/rascarlo/" />
+  <remote name="matt4321"
+           fetch="git://github.com/matt4321/" /> 
   <default revision="refs/tags/android-5.0.1_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" groups="pdk,tradefed" remote="rascarlo" revision="lollipop-ras-mr1" >
+  <project path="build" name="android_build" groups="pdk,tradefed" remote="matt4321" revision="lollipop-ras-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -274,7 +276,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs" remote="rascarlo" revision="lollipop-ras-mr1" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs" remote="matt4321" revision="lollipop-ras-mr1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -389,7 +391,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings"  remote="rascarlo" revision="lollipop-ras-mr1" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings"  remote="matt4321" revision="lollipop-ras-mr1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -500,10 +502,10 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/asus" name="android_vendor_asus" remote="rascarlo" revision="lollipop-ras-mr1" />
+  <project path="vendor/asus/flo" name="vendor_flo" remote="matt4321" revision="lollipop-ras-mr1" />
   <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="lollipop-ras-mr1" />
   <project path="vendor/moto" name="android_vendor_moto" remote="rascarlo" revision="lollipop-ras-mr1" />
-  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="rascarlo" revision="lollipop-ras-mr1" />
+  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="matt4321" revision="lollipop-ras-mr1" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="lollipop-ras-mr1" />
 
 </manifest>
