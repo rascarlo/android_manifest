@@ -1,4 +1,4 @@
-Manifest for android-5.1.1_r6
+Manifest for android-5.1.1_r9
 
 repo init -u https://github.com/rascarlo/android_manifest.git -b lollipop-ras-mr1
 
