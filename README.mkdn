@@ -1,0 +1,9 @@
+Manifest for android-6.0.0_r1
+
+repo init -u https://github.com/rascarlo/android_manifest.git -b marshmallow-ras-mr1
+
+[@rascarlo](https://twitter.com/rascarlo) on Twitter
+
+[@rascarlo](https://plus.google.com/+CarloDiNuccio/) on G+
+
+<img src="https://raw.github.com/rascarlo/android_manifest/marshmallow-ras-mr1/LionOfJudah.png">
