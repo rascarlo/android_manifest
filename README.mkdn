@@ -1,3 +1,7 @@
-Manifest for android-5.1.1_r38
-
+### Manifest for android-5.1.1_r38
 repo init -u https://github.com/rascarlo/android_manifest.git -b aosp-lollipop
+
+### build changes
+- https://github.com/rascarlo/android_build/commit/093c3f8fc233ee641660a806a62337575885052b
+- https://github.com/rascarlo/android_build/commit/5702953cdd3a26768950e02615ea1b26067ba539
+- https://github.com/rascarlo/android_build/commit/73e8ef2403b5e5ab79c090ab4e3aad4f2d4edea9
